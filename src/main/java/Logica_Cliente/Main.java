@@ -45,6 +45,8 @@ public class Main {
         
         Scanner scan= new Scanner(System.in);
         
+        System.out.println("Digite el código del cliente:");
+        code= scan.nextLine();
         //Nombre
         System.out.println("Digite el nombre de la persona");
         nombre=scan.nextLine();
@@ -78,7 +80,7 @@ public class Main {
                         rta = HelperValidacion.ValidarVacio(identificacion);
                     }
                     rta = HelperValidacion.ValidarVacio(identificacion);
-                    retorno = HelperValidacion.RetornarValor(identificacion);
+                    retorno = HelperValidacion.RetornarValorL(identificacion);
                     caracter_e = HelperValidacion.RetornarCEV2(identificacion);
 
                     
